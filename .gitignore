@@ -1,0 +1,6 @@
+mackerel-plugin-*/mackerel-plugin-*_linux_*
+mackerel-plugin-*/mackerel-plugin-*_darwin_*
+mackerel-plugin-*/mackerel-plugin-*_freebsd_*
+mackerel-plugin-*/mackerel-plugin-*_openbsd_*
+mackerel-plugin-*/mackerel-plugin-*_netbsd_*
+mackerel-plugin-*/mackerel-plugin-*_windows_*
