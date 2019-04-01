@@ -1,6 +1,6 @@
 mackerel-plugin-sora-stats
 =======================
-SORA stats report API custom metrics plugin for mackerel.io.agent.
+Sora stats report API custom metrics plugin for mackerel.io.agent.
 
 ## Synopsis
 ```shell
@@ -23,8 +23,9 @@ $ go build main.go
 
 ## Reference
 
-### About SORA by Shiguredo
+### About Sora by Shiguredo
 https://sora.shiguredo.jp
+
 https://sora.shiguredo.jp/doc/index.html
 
 ### Sora Stats Report API

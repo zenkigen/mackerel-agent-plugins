@@ -10,8 +10,8 @@ https://github.com/mackerelio/mackerel-agent-plugins
 * [mackerel-plugin-proc-cnt](./mackerel-plugin-proc-cnt/README.md)
   - Process count custom metrics plugin for mackerel.io.agent.
 * [mackerel-plugin-sora-stats](./mackerel-plugin-sora-stats/README.md)
-  - SORA stats report API custom metrics plugin for mackerel.io.agent.
-  - SORA is a software package of WebRTC SFU released by Shiguredo.
+  - Sora stats report API custom metrics plugin for mackerel.io.agent.
+  - Sora is a software package of WebRTC SFU released by Shiguredo.
   - refer to: https://sora.shiguredo.jp/
 
 For detail, please look at each plugin's README.

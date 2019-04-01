@@ -41,14 +41,14 @@ func (s SorastatsPlugin) MetricKeyPrefix() string {
 func (s SorastatsPlugin) GraphDefinition() map[string]mp.Graphs {
   return map[string]mp.Graphs{
     "ongoing_connections": {
-      Label: "SORA Ongoing Connections",
+      Label: "Sora Ongoing Connections",
       Unit: mp.UnitInteger,
       Metrics: []mp.Metrics{
         {Name: "ongoing_connections", Label: "Current Ongoing connections", Diff: false},
       },
     },
     "average_connections": {
-      Label: "SORA Average Connections in 1 minutes",
+      Label: "Sora Average Connections in 1 minutes",
       Unit: mp.UnitFloat,
       Metrics: []mp.Metrics{
         {Name: "successful_connections", Label: "Successful connections in last 1 minutes", Diff: true},
@@ -56,21 +56,21 @@ func (s SorastatsPlugin) GraphDefinition() map[string]mp.Graphs {
       },
     },
     "duration": {
-      Label: "SORA Average Duration [sec]",
+      Label: "Sora Average Duration [sec]",
       Unit: mp.UnitInteger,
       Metrics: []mp.Metrics{
         {Name: "average_duration_sec", Label: "Average duration [sec]", Diff: false},
       },
     },
     "setup_time": {
-      Label: "SORA Average Setup Time [msec]",
+      Label: "Sora Average Setup Time [msec]",
       Unit: mp.UnitInteger,
       Metrics: []mp.Metrics{
         {Name: "average_setup_time_msec", Label: "Average setup time [msec]", Diff: false},
       },
     },
     "turn_connections": {
-      Label: "SORA Turn Connections in 1 minutes",
+      Label: "Sora Turn Connections in 1 minutes",
       Unit: mp.UnitFloat,
       Metrics: []mp.Metrics{
         {Name: "turn_tcp_connections", Label: "turn tcp connections in last 1 minutes", Diff: true},
@@ -82,7 +82,7 @@ func (s SorastatsPlugin) GraphDefinition() map[string]mp.Graphs {
 
 // FetchMetrics interface for mackerelplugin
 func (s SorastatsPlugin) FetchMetrics() (map[string]float64, error) {
-  // Fetch stats report from SORA
+  // Fetch stats report from Sora
   req, err := http.NewRequest("POST", s.URI, nil)
   if err != nil {
     return nil, err
