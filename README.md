@@ -5,11 +5,11 @@ https://github.com/mackerelio/mackerel-agent-plugins
 
 ## Plugins in this pack
 
-* mackerel-plugin-check-existence
+* [mackerel-plugin-check-existence](./mackerel-plugin-check-existence/README.md)
   - File or Directory check plugin by 'ls' command for mackerel.io.agent.
-* mackerel-plugin-proc-cnt
+* [mackerel-plugin-proc-cnt](./mackerel-plugin-proc-cnt/README.md)
   - Process count custom metrics plugin for mackerel.io.agent.
-* mackerel-plugin-sora-stats
+* [mackerel-plugin-sora-stats](./mackerel-plugin-sora-stats/README.md)
   - SORA stats report API custom metrics plugin for mackerel.io.agent.
   - SORA is a software package of WebRTC SFU released by Shiguredo.
   - refer to: https://sora.shiguredo.jp/
