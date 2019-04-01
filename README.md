@@ -14,7 +14,7 @@ https://github.com/mackerelio/mackerel-agent-plugins
   - SORA is a software package of WebRTC SFU released by Shiguredo.
   - refer to: https://sora.shiguredo.jp/
 
-For detail, please look at each plugin's ReadMe.
+For detail, please look at each plugin's README.
 
 # How to use
 
@@ -22,4 +22,4 @@ sorry, updating...
 
 # Build
 
-sorry, updating...
+Please see each plugin's README.
