@@ -1,0 +1,11 @@
+Source: zenkigen-mackerel-agent-plugins
+Section: misc
+Priority: optional
+Maintainer: Masanori Yoshimoto <masanori.yoshimoto@zenkigen.jp>
+Build-Depends: debhelper (>= 9), cdbs
+Standards-Version: 4.0.0
+
+Package: zenkigen-mackerel-agent-plugins
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: additional mackerel-agent plugins
