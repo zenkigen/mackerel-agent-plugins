@@ -16,9 +16,17 @@ https://github.com/mackerelio/mackerel-agent-plugins
 
 For detail, please look at each plugin's README.
 
-# How to use
+# Install
 
-sorry, updating...
+Currently, the package in this repository is only for linux amd64.
+If you want to use in other architecture, please contact us or submit issues.
+
+## Linux
+
+```
+$ wget https://github.com/zenkigen/mackerel-agent-plugins/raw/master/zenkigen-mackerel-agent-plugins_1.0.0_amd64.deb
+$ dpkg -i zenkigen-mackerel-agent-plugins_1.0.0_amd64.deb
+```
 
 # Build
 
