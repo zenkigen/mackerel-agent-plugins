@@ -13,3 +13,11 @@ mackerel-plugin-proc-cnt [-process=<Process name>]
 command = "/path/to/mackerel-plugin-proc-cnt -process nginx"
 ```
 
+## Build
+
+```
+$ go get github.com/zenkigen/mackerel-agent-plugins
+$ github.com/mackerelio/go-mackerel-plugin
+$ go get github.com/mattn/go-pipeline
+$ go build main.go
+```

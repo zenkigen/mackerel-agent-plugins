@@ -13,3 +13,11 @@ mackerel-plugin-check-existence [-path=<Path to file or directory>]
 command = "/path/to/mackerel-plugin-check-existence -path /tmp/archive"
 ```
 
+## Build
+
+```
+$ go get github.com/zenkigen/mackerel-agent-plugins
+$ go get github.com/mackerelio/checkers
+$ go get github.com/mattn/go-pipeline
+$ go build main.go
+```

@@ -13,6 +13,14 @@ mackerel-plugin-sora-sora [-host=<Hostname>] [-port=<Port>] [-scheme=<http|https
 command = "/path/to/mackerel-plugin-sora-sora"
 ```
 
+## Build
+
+```
+$ go get github.com/zenkigen/mackerel-agent-plugins
+$ go get github.com/mackerelio/go-mackerel-plugin
+$ go build main.go
+```
+
 ## Reference
 
 ### About SORA by Shiguredo
