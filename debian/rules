@@ -6,6 +6,6 @@ TARGET_DIR = "opt/zenkigen/mackerel-agent-plugins"
 
 install/zenkigen-mackerel-agent-plugins::
 	install -pd $(DEB_DESTDIR)$(TARGET_DIR)
-	install -pm 755 bin/linux-amd64/check-file-existence $(DEB_DESTDIR)$(TARGET_DIR)
-	install -pm 755 bin/linux-amd64/mackerel-plugin-proc-cnt $(DEB_DESTDIR)$(TARGET_DIR)
-	install -pm 755 bin/linux-amd64/mackerel-plugin-sora-stats $(DEB_DESTDIR)$(TARGET_DIR)
+	install -pm 755 bin/linux_amd64/check-file-existence $(DEB_DESTDIR)$(TARGET_DIR)
+	install -pm 755 bin/linux_amd64/mackerel-plugin-proc-cnt $(DEB_DESTDIR)$(TARGET_DIR)
+	install -pm 755 bin/linux_amd64/mackerel-plugin-sora-stats $(DEB_DESTDIR)$(TARGET_DIR)
